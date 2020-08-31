@@ -1,0 +1,5 @@
+URL="https://react-my-burger-bd47f.firebaseio.com/"
+        let url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyB2MWUOUoYmB12yCfID8BxeAxVpe6JYKg4';
+        if (!isSignup) {
+            url = 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyB2MWUOUoYmB12yCfID8BxeAxVpe6JYKg4';
+        }
